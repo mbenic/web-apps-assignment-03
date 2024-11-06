@@ -1,4 +1,7 @@
 "use client";
+// dynamic, these need to be ‘tagged’ as ‘edge functions.
+export const runtime = "edge";
+
 // an array of objects where each object represents a news post
 import { postsValues } from "../../data/posts";
 import { use } from "react";
