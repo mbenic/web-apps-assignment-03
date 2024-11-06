@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
 
+// the carousel image and text
 function CarouselImage({ text }) {
   // the encoding returns https://via.placeholder.com/800x400.png?text=First%20slide
   return (

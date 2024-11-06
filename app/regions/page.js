@@ -6,6 +6,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import Container from "../components/Container";
+
+// get the useTheme function from ThemeContext component
 import { useTheme } from "../context/ThemeContext";
 
 // an array of objects representing different regions in Australia.
@@ -68,9 +70,11 @@ function ListRegions({ regions }) {
 
 //  wraps the layout for displaying the list of regions
 const Regions = () => {
+  //pull the theme variable from the context
   const { theme } = useTheme();
   return (
     <main
+      //Adjust the colors according to the theme
       className={`${
         theme == "light" ? "bg-light text-dark" : "bg-dark text-light"
       }`}

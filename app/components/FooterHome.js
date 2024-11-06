@@ -1,5 +1,7 @@
+//Import a logo image to display in the footer
 import Logo from "../images/logo.png";
 
+// component that returns the footer layout
 const FooterHome = () => {
   return (
     <footer id="footer">

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const ContactForm = () => {
+  // initialise formData set all as "" empty strings
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -8,6 +9,7 @@ const ContactForm = () => {
     message: "",
   });
 
+  // update the formData state whenever an input fields value changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -30,6 +32,7 @@ const ContactForm = () => {
     });
   };
 
+  // Render the Form
   return (
     <div className="contact-form">
       <form onSubmit={handleSubmit}>

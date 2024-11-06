@@ -9,12 +9,15 @@ import MainHome from "./components/MainHome";
 import Sidebar from "./components/Sidebar";
 import Container from "./components/Container";
 
+// get the useTheme function from ThemeContext component
 import { useTheme } from "./context/ThemeContext";
 
 const HomePage = () => {
+  //pull the theme variable from the context
   const { theme } = useTheme();
   return (
     <main
+      //Adjust the colors according to the theme
       className={`${
         theme == "light" ? "bg-light text-dark" : "bg-dark text-light"
       }`}

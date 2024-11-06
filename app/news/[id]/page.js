@@ -5,6 +5,8 @@ export const runtime = "edge";
 // an array of objects where each object represents a news post
 import { postsValues } from "../../data/posts";
 import { use } from "react";
+
+// get the useTheme function from ThemeContext component
 import { useTheme } from "../../context/ThemeContext";
 
 // import necessary components
@@ -319,6 +321,8 @@ const BlogSideBar = () => {
   );
 };
 const BlogPage = ({ params }) => {
+  //pull the theme variable from the context
+
   const { theme } = useTheme();
   //  extract the id parameter from params
   // the id is coming from the url
@@ -331,6 +335,7 @@ const BlogPage = ({ params }) => {
 
   return (
     <main
+      //Adjust the colors according to the theme
       className={`${
         theme == "light" ? "bg-light text-dark" : "bg-dark text-light"
       }`}

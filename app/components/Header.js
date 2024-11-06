@@ -1,11 +1,16 @@
+//Link is imported enabling client-side routing
 import Link from "next/link";
+//Import a logo image to display in the header
 import Logo from "../images/logo.png";
+
+// get the useTheme function from ThemeContext component
 import { useTheme } from "../context/ThemeContext";
 
 // see https://stackoverflow.com/questions/59546370/i-cant-reference-an-image-in-next-js
 // for how to reference an image
 
 const Header = () => {
+  //pull the toggleTheme function from the context
   const { theme, toggleTheme } = useTheme();
   return (
     <header id="header">
@@ -82,6 +87,7 @@ const Header = () => {
                     <Link href="/contact">Contact</Link>
                   </li>
                   <li>
+                    {/*Clicking this link triggers toggleTheme, switching between light and dark modes */}
                     <Link href="#" onClick={toggleTheme}>
                       Toggle Theme
                     </Link>
