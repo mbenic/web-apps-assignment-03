@@ -22,7 +22,7 @@ function LastMinuteDeals() {
         <li className="col-md-12">
           <div className="image">
             <a href="blog-detail.html">
-              <img alt="" src="http://placehold.it/100x100" />
+              <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
 
@@ -39,7 +39,7 @@ function LastMinuteDeals() {
         <li className="col-md-12">
           <div className="image">
             <a href="blog-detail.html">
-              <img alt="" src="http://placehold.it/100x100" />
+              <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
 
@@ -56,7 +56,7 @@ function LastMinuteDeals() {
         <li className="col-md-12">
           <div className="image">
             <a href="blog-detail.html">
-              <img alt="" src="http://placehold.it/100x100" />
+              <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
 
@@ -73,7 +73,7 @@ function LastMinuteDeals() {
         <li className="col-md-12">
           <div className="image">
             <a href="blog-detail.html">
-              <img alt="" src="http://placehold.it/100x100" />
+              <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
 
@@ -104,7 +104,7 @@ function Activity() {
       <ul className="activity">
         <li className="col-lg-12">
           <a href="/">
-            <img src="http://placehold.it/70x70" alt="" />
+            <img src="https://placehold.it/70x70" alt="" />
           </a>
           <div className="info">
             <h5>
@@ -117,7 +117,7 @@ function Activity() {
         </li>
         <li className="col-lg-12">
           <a href="/">
-            <img src="http://placehold.it/70x70" alt="" />
+            <img src="https://placehold.it/70x70" alt="" />
           </a>
           <div className="info">
             <h5>

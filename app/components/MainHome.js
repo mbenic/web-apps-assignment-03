@@ -18,38 +18,38 @@ function PopularRegions() {
         <div id="regions">
           <div className="item">
             <a href="/">
-              <img src="http://placehold.it/194x194" alt="" />
+              <img src="https://placehold.it/194x194" alt="" />
               <h3>Rhovanion</h3>
             </a>
           </div>
           <div className="item">
             <a href="/">
-              <img src="http://placehold.it/194x194" alt="" />
+              <img src="https://placehold.it/194x194" alt="" />
               <h3>Eriador</h3>
             </a>
           </div>
           <div className="item">
             <a href="/">
-              <img src="http://placehold.it/194x194" alt="" />
+              <img src="https://placehold.it/194x194" alt="" />
               <h3>Bay of Belfalas</h3>
             </a>
           </div>
           <div className="item">
             <a href="/">
-              <img src="http://placehold.it/194x194" alt="" />
+              <img src="https://placehold.it/194x194" alt="" />
               <h3>Mordor</h3>
             </a>
           </div>
 
           <div className="item">
             <a href="/">
-              <img src="http://placehold.it/194x194" alt="" />
+              <img src="https://placehold.it/194x194" alt="" />
               <h3>The Southwest</h3>
             </a>
           </div>
           <div className="item">
             <a href="/">
-              <img src="http://placehold.it/194x194" alt="" />
+              <img src="https://placehold.it/194x194" alt="" />
               <h3>Arnor</h3>
             </a>
           </div>
@@ -71,7 +71,7 @@ function RecentArticles() {
                 <i className="fa fa-file-o"></i> Read More
               </span>
             </a>
-            <img src="http://placehold.it/766x515" alt="" />
+            <img src="https://placehold.it/766x515" alt="" />
           </div>
           <div className="tag">
             <i className="fa fa-file-text"></i>
@@ -104,7 +104,7 @@ function RecentArticles() {
                 <i className="fa fa-file-o"></i> Read More
               </span>
             </a>
-            <img src="http://placehold.it/766x515" alt="" />
+            <img src="https://placehold.it/766x515" alt="" />
           </div>
           <div className="tag">
             <i className="fa fa-film"></i>
@@ -137,7 +137,7 @@ function RecentArticles() {
                 <i className="fa fa-file-o"></i> Read More
               </span>
             </a>
-            <img src="http://placehold.it/766x515" alt="" />
+            <img src="https://placehold.it/766x515" alt="" />
           </div>
           <div className="tag">
             <i className="fa fa-file-text"></i>
@@ -188,7 +188,7 @@ function FeaturedProperties() {
               <h3>Luxury Apartment with great views</h3>
               <span className="location">Upper East Side, New York</span>
             </a>
-            <img src="http://placehold.it/760x670" alt="" />
+            <img src="https://placehold.it/760x670" alt="" />
           </div>
           <div className="price">
             <span>$950</span>
@@ -210,7 +210,7 @@ function FeaturedProperties() {
               <h3>Stunning Villa with 5 bedrooms</h3>
               <span className="location">Miami Beach, Florida</span>
             </a>
-            <img src="http://placehold.it/760x670" alt="" />
+            <img src="https://placehold.it/760x670" alt="" />
           </div>
           <div className="price">
             <span>$1,300</span>
@@ -232,7 +232,7 @@ function FeaturedProperties() {
               <h3>Recent construction with 3 bedrooms</h3>
               <span className="location">Park Slope, New York</span>
             </a>
-            <img src="http://placehold.it/760x670" alt="" />
+            <img src="https://placehold.it/760x670" alt="" />
           </div>
           <div className="price">
             <span>$560</span>
@@ -254,7 +254,7 @@ function FeaturedProperties() {
               <h3>Modern construction with parking space</h3>
               <span className="location">Midtown, New York</span>
             </a>
-            <img src="http://placehold.it/760x670" alt="" />
+            <img src="https://placehold.it/760x670" alt="" />
           </div>
           <div className="price">
             <span>$85</span>
@@ -276,7 +276,7 @@ function FeaturedProperties() {
               <h3>Single Family Townhouse</h3>
               <span className="location">Cobble Hill, New York</span>
             </a>
-            <img src="http://placehold.it/760x670" alt="" />
+            <img src="https://placehold.it/760x670" alt="" />
           </div>
           <div className="price">
             <span>$840</span>
@@ -298,7 +298,7 @@ function FeaturedProperties() {
               <h3>3 bedroom villa with garage for rent</h3>
               <span className="location">Bal Harbour, Florida</span>
             </a>
-            <img src="http://placehold.it/760x670" alt="" />
+            <img src="https://placehold.it/760x670" alt="" />
           </div>
           <div className="price">
             <span>$150</span>

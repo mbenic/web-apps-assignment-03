@@ -16,37 +16,37 @@ const regions = [
     id: "1",
     capital: "Sydney",
     state: "New South Wales",
-    imgUrl: "http://placehold.it/760x670",
+    imgUrl: "https://placehold.it/760x670",
   },
   {
     id: "2",
     capital: "Melbourne",
     state: "Victoria",
-    imgUrl: "http://placehold.it/760x670",
+    imgUrl: "https://placehold.it/760x670",
   },
   {
     id: "3",
     capital: "Brisbane",
     state: "Queensland",
-    imgUrl: "http://placehold.it/760x670",
+    imgUrl: "https://placehold.it/760x670",
   },
   {
     id: "4",
     capital: "Perth",
     state: "Western Australia",
-    imgUrl: "http://placehold.it/760x670",
+    imgUrl: "https://placehold.it/760x670",
   },
   {
     id: "5",
     capital: "Adelaide",
     state: "South Australia",
-    imgUrl: "http://placehold.it/760x670",
+    imgUrl: "https://placehold.it/760x670",
   },
   {
     id: "6",
     capital: "Hobart",
     state: "Tasmania",
-    imgUrl: "http://placehold.it/760x670",
+    imgUrl: "https://placehold.it/760x670",
   },
 ];
 

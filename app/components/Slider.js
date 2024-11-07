@@ -19,14 +19,14 @@ const Slider = () => {
           className="item active"
           id="slide1"
           /*  style="
-        background: url(http://placehold.it/1920x605) no-repeat left
+        background: url(https://placehold.it/1920x605) no-repeat left
           center;
         background-size: cover;
   " */
 
           style={{
             background:
-              "url(http://placehold.it/1920x605) no-repeat left center",
+              "url(https://placehold.it/1920x605) no-repeat left center",
             backgroundSize: "cover",
           }}
         >
@@ -45,7 +45,7 @@ const Slider = () => {
           id="slide2"
           style={{
             background:
-              "url(http://placehold.it/1920x605) no-repeat left center",
+              "url(https://placehold.it/1920x605) no-repeat left center",
             backgroundSize: "cover",
           }}
         >
