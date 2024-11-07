@@ -2,7 +2,7 @@
 export const postsValues = [
   {
     id: "1",
-    imgUrl: "http://placehold.it/766x515",
+    imgUrl: "https://placehold.it/766x515",
     date: "2024-08-08",
     author: "Admin",
     title: "New Rental Regulations Announced",
@@ -10,7 +10,7 @@ export const postsValues = [
   },
   {
     id: "2",
-    imgUrl: "http://placehold.it/766x515",
+    imgUrl: "https://placehold.it/766x515",
     date: "2024-08-07",
     author: "Admin",
     title: "Top 10 Rental Properties in Sydney",
@@ -18,7 +18,7 @@ export const postsValues = [
   },
   {
     id: "3",
-    imgUrl: "http://placehold.it/766x515",
+    imgUrl: "https://placehold.it/766x515",
     date: "2024-08-06",
     author: "Admin",
     title: "Customer Stories: Finding the Perfect Home",
