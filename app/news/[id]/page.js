@@ -4,7 +4,7 @@ export const runtime = "edge";
 
 // an array of objects where each object represents a news post
 import { postsValues } from "../../data/posts";
-import { use } from "react";
+//import { use } from "react"; - no longer required see below
 
 // get the useTheme function from ThemeContext component
 import { useTheme } from "../../context/ThemeContext";
@@ -326,7 +326,11 @@ const BlogPage = ({ params }) => {
   const { theme } = useTheme();
   //  extract the id parameter from params
   // the id is coming from the url
-  const { id } = use(params);
+
+  //for some reason i had to have use() when i was using latest version of react
+  //const { id } = use(params);
+
+  const { id } = params;
 
   // find the post that matches the id in the URL
   let post = postsValues.find((item) => {
