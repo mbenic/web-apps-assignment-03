@@ -18,76 +18,73 @@ function LastMinuteDeals() {
   return (
     <div className="col-sm-12">
       <h2 className="section-title">Last minute deals</h2>
-      <ul className="latest-news">
-        <li className="col-md-12">
+
+      <div className="latest-news">
+        <div className="grid-ish">
           <div className="image">
             <a href="blog-detail.html">
               <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
-
-          <ul className="top-info">
-            <li>
+          <div>
+            <div className="top-info">
               <i className="fa fa-calendar"></i>Available Now
-              <h4>
-                <a href="blog-detail.html">Private Beach</a>
-                <p>Lossarnach, Eriado</p>
-              </h4>
-            </li>
-          </ul>
-        </li>
-        <li className="col-md-12">
+            </div>
+            <h4>
+              <a href="blog-detail.html">Private Beach</a>
+            </h4>
+            <h4>Lossarnach, Eriado</h4>
+          </div>
+        </div>
+        <div className="grid-ish">
           <div className="image">
             <a href="blog-detail.html">
               <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
-
-          <ul className="top-info">
-            <li>
+          <div>
+            <div className="top-info">
               <i className="fa fa-calendar"></i>Available on 24 July
-              <h4>
-                <a href="blog-detail.html">Mountain views</a>
-                <p>Hyarnustar, Rhovanion</p>
-              </h4>
-            </li>
-          </ul>
-        </li>
-        <li className="col-md-12">
+            </div>
+            <h4>
+              <a href="blog-detail.html">Mountain views</a>
+            </h4>
+            <h4>Hyarnustar, Rhovanion</h4>
+          </div>
+        </div>
+        <div className="grid-ish">
           <div className="image">
             <a href="blog-detail.html">
               <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
-
-          <ul className="top-info">
-            <li>
+          <div>
+            <div className="top-info">
               <i className="fa fa-calendar"></i>Available 5 July
-              <h4>
-                <a href="blog-detail.html">Heart of the village</a>
-                <p>Minhiriath, Eriador</p>
-              </h4>
-            </li>
-          </ul>
-        </li>
-        <li className="col-md-12">
+            </div>
+            <h4>
+              <a href="blog-detail.html">Heart of the village</a>
+            </h4>
+            <h4>Minhiriath, Eriador</h4>
+          </div>
+        </div>
+        <div className="grid-ish">
           <div className="image">
             <a href="blog-detail.html">
               <img alt="" src="https://placehold.it/100x100" />
             </a>
           </div>
-
-          <ul className="top-info">
-            <li>
+          <div>
+            <div className="top-info">
               <i className="fa fa-calendar"></i>Available 6 July
-              <h4>
-                <a href="blog-detail.html">The city life</a>
-                <p>West Beleriand, Mordor</p>
-              </h4>
-            </li>
-          </ul>
-        </li>
-      </ul>
+            </div>
+            <h4>
+              <a href="blog-detail.html">The city life</a>
+            </h4>
+            <h4>West Beleriand, Mordor</h4>
+          </div>
+        </div>
+      </div>
       <p className="center">
         <a className="btn btn-fullcolor" href="/">
           More deals

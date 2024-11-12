@@ -13,6 +13,9 @@ import { ThemeProvider } from "./context/ThemeContext";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>One Ring Rentals Website</title>
+      </head>
       <body>
         {/* enables any component within RootLayout to access the theme context  */}
         <ThemeProvider> {children}</ThemeProvider>

@@ -11,7 +11,7 @@ import { useTheme } from "../context/ThemeContext";
 
 const Header = () => {
   //pull the toggleTheme function from the context
-  const { theme, toggleTheme } = useTheme();
+  const { toggleTheme } = useTheme();
   return (
     <header id="header">
       <div id="top-bar">

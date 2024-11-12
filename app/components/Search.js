@@ -30,7 +30,7 @@ const Search = () => {
                     name="search_status"
                     data-placeholder="Stay..."
                   >
-                    <option value=""></option>
+                    <option value="0">0</option>
                     <option value="1">1 Night</option>
                     <option value="2">2 Nights</option>
                     <option value="3">3 Nights</option>
@@ -54,7 +54,6 @@ const Search = () => {
                     name="search_bedrooms"
                     data-placeholder="Bedrooms"
                   >
-                    <option value=""></option>
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
