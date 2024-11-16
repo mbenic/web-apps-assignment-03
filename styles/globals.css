@@ -1,5 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+@import "../app/css/font.css";
+
+@import "../app/css/font-awesome.min.css";
+
+@import "../app/css/style.css"; /* Importing the stylesheets*/
+
+@media (max-width: 768px) {
+  .carousel .carousel-item .img-fluid {
+    height: 500px !important; /* Adjust to your preferred mobile height */
+    object-fit: cover; /* Ensure the image covers the height */
+  }
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
