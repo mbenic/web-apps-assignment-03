@@ -1,11 +1,5 @@
 import "../styles/globals.css";
 
-import "./css/font.css";
-
-import "./css/font-awesome.min.css";
-
-import "./css/style.css"; // Importing the stylesheets
-
 // a context provider that enables a theme "dark" or "light" to be accessible throughout the component tree
 import { ThemeProvider } from "./context/ThemeContext";
 
@@ -14,6 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Html wasnt validating without title */}
         <title>One Ring Rentals Website</title>
       </head>
       <body>
