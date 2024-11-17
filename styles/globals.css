@@ -8,7 +8,7 @@
 
 @media (max-width: 768px) {
   .carousel .carousel-item .img-fluid {
-    height: 500px !important; /* Adjust to your preferred mobile height */
+    height: 500px !important; /* mobile height */
     object-fit: cover; /* Ensure the image covers the height */
   }
 }
