@@ -33,7 +33,7 @@ const Search = () => {
                     data-placeholder="Stay..."
                   >
                     <option value="0">Stay..</option>
-                    <option value="0">0</option>
+
                     <option value="1">1 Night</option>
                     <option value="2">2 Nights</option>
                     <option value="3">3 Nights</option>
@@ -58,7 +58,7 @@ const Search = () => {
                     data-placeholder="Bedrooms"
                   >
                     <option value="0">Bedrooms</option>
-                    <option value="0">0</option>
+
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
