@@ -1,4 +1,9 @@
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { useState } from "react";
+
 const Search = () => {
+  const [arrivalDate, setArrivalDate] = useState(null);
   return (
     <div id="home-advanced-search" className="open">
       <div id="opensearch"></div>
@@ -8,19 +13,16 @@ const Search = () => {
             <form>
               <div className="form-group">
                 <div className="form-control-small">
-                  <div
-                    className="input-group date chzn-container"
-                    data-datepicker
-                  >
-                    <input
-                      placeholder="Arrive on..."
-                      type="text"
-                      className="form-control"
-                      data-date-format="DD/MM/YYYY"
+                  <div className="input-group date">
+                    <DatePicker
+                      selected={arrivalDate}
+                      onChange={(date) => setArrivalDate(date)}
+                      placeholderText="Select a date"
+                      dateFormat="dd/MM/yyyy"
+                      className="form-control" // Bootstrap styling
+                      showIcon
+                      toggleCalendarOnIconClick
                     />
-                    <span className="input-group-addon">
-                      <span className="glyphicon glyphicon-calendar"></span>
-                    </span>
                   </div>
                 </div>
 
@@ -30,6 +32,7 @@ const Search = () => {
                     name="search_status"
                     data-placeholder="Stay..."
                   >
+                    <option value="0">Stay..</option>
                     <option value="0">0</option>
                     <option value="1">1 Night</option>
                     <option value="2">2 Nights</option>
@@ -54,6 +57,7 @@ const Search = () => {
                     name="search_bedrooms"
                     data-placeholder="Bedrooms"
                   >
+                    <option value="0">Bedrooms</option>
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>

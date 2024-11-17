@@ -332,7 +332,7 @@ const BlogPage = ({ params }) => {
 
   const { id } = params;
 
-  // find the post that matches the id in the URL
+  // Locate the Matching Post
   let post = postsValues.find((item) => {
     return item.id == id;
   });
