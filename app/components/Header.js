@@ -86,6 +86,9 @@ const Header = () => {
                   <li key="6">
                     <Link href="/contact">Contact</Link>
                   </li>
+                  <li key="7">
+                    <Link href="/properties">Properties</Link>
+                  </li>
                   <li>
                     {/*Clicking this link triggers toggleTheme, switching between light and dark modes */}
                     <Link href="#" onClick={toggleTheme}>
