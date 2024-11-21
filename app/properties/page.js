@@ -1,10 +1,8 @@
 "use client";
-import Link from "next/link";
 
 import React from "react";
 import { useState } from "react";
 import { properties } from "../data/properties";
-import Image from "next/image";
 
 // get the useTheme function from ThemeContext component
 import { useTheme } from "../context/ThemeContext";
@@ -17,7 +15,7 @@ import Container from "../components/Container";
 
 const Property = () => {
   const [index, setIndex] = useState(0);
-
+  // from chatgpt
   function handleClickReverse() {
     setIndex((index - 1 + properties.length) % properties.length);
   }
@@ -35,7 +33,7 @@ const Property = () => {
         <div className="col-md-6 item ">
           <div className="image">
             <img
-              src={property.link}
+              src={property.image}
               alt={property.title}
               className="img-fluid rounded "
             />
@@ -48,14 +46,6 @@ const Property = () => {
           <h2>{property.title}</h2>
           <p>{property.description} </p>
 
-          {/* <a
-            href={property.link}
-            className="btn btn-primary"
-            target="_blank"
-           
-          >
-            View More
-          </a> */}
           <h3>
             ({index + 1} of {properties.length})
           </h3>
